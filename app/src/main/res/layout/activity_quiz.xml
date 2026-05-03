@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink_light"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Question -->
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/question_here"
+        android:textColor="@color/pink_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Hack Button -->
+    <Button
+        android:id="@+id/btnHack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/luxury_button"
+        android:maxWidth="320dp"
+        android:text="@string/hack_true"
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
+
+    <!-- Myth Button -->
+    <Button
+        android:id="@+id/btnMyth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/luxury_button"
+        android:maxWidth="320dp"
+        android:text="@string/myth_false"
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
+
+    <!-- Feedback -->
+    <TextView
+        android:id="@+id/txtFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        android:textColor="@color/gold_dark"
+        android:textSize="16sp" />
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/luxury_button"
+        android:text="@string/next"
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
+
+</LinearLayout>
