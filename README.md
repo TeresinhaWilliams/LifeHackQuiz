@@ -1,7 +1,10 @@
 Life Quiz App Report
+
 Made using Kotlin in Android Studio.
+
 The main goal of this app is to increase the user's general understanding while assisting them in determining the truth of everyday life hacks
 Users are asked to start the quiz and presented with a series of questions.
+
 They need to determine whether these questions are true or false.
 
 The purpose of this app is to inform uers of the common myths.
